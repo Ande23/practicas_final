@@ -71,6 +71,7 @@ public class Principal {
 
 		System.out.println("22.- Ejercicio 22 (Sergi Cortés)");
 		System.out.println("30.- Salir");
+		System.out.println("Ejercicio 1 Métodos");
 	}
 
 	/*
@@ -114,6 +115,7 @@ public class Principal {
 			System.out.println("Proyecto que une todos los ejercicios del Tema 4 en un solo fichero./n/n");
 			break;
 		case 1:
+			Actividad1();
 			break;
 		case 2:
 			exercici02();
@@ -861,3 +863,30 @@ public class ejercicio16 {
 		} while (pedir = false);
 	}
 }
+		
+		
+		
+		
+
+public class Actividad1 {
+
+	public static void main(String[] args) {
+		imprimirTablasDeMultiplicar();
+
+	}
+
+	public static void imprimirTablasDeMultiplicar() {
+
+		for (int i = 0; i < 10; i++) {
+			for (int j = 0; j < 10; j++) {
+
+				System.out.printf("%2d*%2d=%3d|", j, i, i * j);
+
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+
